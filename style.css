@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "avenir";
+    src: url("bootstrap/fonts/avenir.tcc");
+}
+
+body {
+	margin: 0;
+}
+
+h2 {
+	font-family: "avenir";
+	font-weight: bold;
+	font-size: 30px;
+}
+
+p {
+	font-family: "avenir";
+}
+
+#header_index {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url("image/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+#header_contact {
+	position: relative;
+	width: 100%;
+	height: 600px;
+	background-image: url("image/contact.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+
+#nav {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	/* background-color: #3cb5b5; */	
+}
+
+#logo {
+	width: 165px;
+	height: 50px;
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+#download_link {
+	text-decoration: none;
+	font-family: "avenir", sans-serif;
+	color: white;
+	float: right;
+	margin: 12px;
+	border: 2px solid white;
+	padding: 8px;
+	border-radius: 2px;
+}
+
+#download_link:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+
+#nav_links {
+	font-family: "avenir";
+	color: white;
+	float: right;
+	margin: 10px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+#main_title {
+	position: absolute;
+	width: 800px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -400px;
+	/* line-height: 60px; */
+}
+
+#main_text_index {
+	color: white;
+	font-family: "avenir";
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+}
+
+#second_text_index {
+	color: white;
+	font-family: "avenir";
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -50px;
+}
+
+#main_text_contact {
+	color: #404040;
+	font-family: "avenir";
+	font-weight: bold;
+	font-size: 55px;
+	text-align: center;
+}
+
+#second_text_contact {
+	color: #404040;
+	font-family: "avenir";
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: -50px;
+}
+
+#main_button {
+	font-family: "avenir";
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px 10px 30px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	left: 50%;
+	margin-left: -120px;
+}
+
+#main_button:visited {
+	font-family: "avenir";
+	color: white;
+	text-decoration: none;
+}
+
+#main_button:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+#block_feature {
+	float: left;
+	text-align: center;
+	width: 100%;
+	background-color: #404040;
+	font-family: "avenir";
+	color: white;
+}
+
+#block_description {
+	font-family: "avenir";
+	font-weight: bold;
+}
+
+
+#table_left {
+	text-align: justify;
+	padding-right: 50px;
+}
+
+#main_table {
+	padding-top: 30px;
+
+}
+
+#ulist {
+	font-family: "avenir";
+	font-weight: bold;
+	padding: 20px;
+	line-height: 25px;
+
+}
+
+#contact_form {
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 50px;
+}
+
+#footer {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	background-color: #404040;
+	font-family: "avenir";
+	color: white;
+}
